@@ -56,6 +56,13 @@ export function Nav() {
         <NavigationMenuList>
           <h1 className="font-semibold pr-4 text-lg">✨ Alixan</h1>
           <NavigationMenuItem>
+            <Link href="#whoami" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Qui suis-je
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
             <Link href="#projects" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Mes projets
@@ -63,9 +70,9 @@ export function Nav() {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="#projects" legacyBehavior passHref>
+            <Link href="#contact" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Compétences
+                Contacte
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>

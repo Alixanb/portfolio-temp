@@ -4,7 +4,9 @@ import { Nav } from "@/src/components/base/Nav";
 import { ProjectCard } from "@/src/components/base/ProjectCard";
 import { Skills } from "@/src/components/base/Skills";
 import { Container, Main } from "@/src/components/layout/Section";
+import ButtonRing from "@/src/components/ui/button-ring";
 import TextRevealByWord from "@/src/components/ui/text-reveal";
+import { Globe } from "lucide-react";
 
 export default function Home() {
   return (
@@ -25,9 +27,14 @@ export default function Home() {
         </Container>
 
         <Container id="projects">
-          <h2 className="text-4xl font-medium text-primary mb-2 font-mono">
-            Mes projets<span className="text-gray-600">...</span>
-          </h2>
+          <div className="flex w-ful justify-between items-center">
+            <h2 className="text-4xl font-medium text-primary mb-2 font-mono">
+              Mes projets<span className="text-gray-600">...</span>
+            </h2>
+            <ButtonRing>
+              Voir sur GitHub <Globe />
+            </ButtonRing>
+          </div>
 
           <ProjectCard />
         </Container>
