@@ -14,7 +14,7 @@ export default function Home() {
         <Header />
       </header>
       <Main>
-        <Container>
+        <Container id="whoami">
           <h2 className="text-4xl font-medium text-primary mb-8 font-mono">
             Qui-suis je <span className="text-gray-600">..?</span>
           </h2>
@@ -24,7 +24,7 @@ export default function Home() {
           <TextRevealByWord text="Je suis un joueur d'équipe, motivé à développer des solutions uniques." />
         </Container>
 
-        <Container>
+        <Container id="projects">
           <h2 className="text-4xl font-medium text-primary mb-2 font-mono">
             Mes projets<span className="text-gray-600">...</span>
           </h2>

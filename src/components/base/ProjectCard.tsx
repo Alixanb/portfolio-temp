@@ -1,11 +1,7 @@
 import { HoverEffect } from "../ui/card-hover-effect";
 
 export function ProjectCard() {
-  return (
-    <div id="projects">
-      <HoverEffect items={projects} />
-    </div>
-  );
+  return <HoverEffect items={projects} />;
 }
 export const projects = [
   {
