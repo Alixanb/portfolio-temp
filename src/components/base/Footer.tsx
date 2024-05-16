@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer
       key="1"
-      className=" py-12 bg-card border border-t-border rounded-t-2xl bg-slate-50"
+      className=" py-12 bg-card border border-t-border rounded-t-2xl"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-between space-y-8 sm:flex-row sm:space-y-0">
         <div className="flex items-center space-x-4">
