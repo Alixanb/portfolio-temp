@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <header>
+        <Nav />
         <Header />
       </header>
       <Main>
-        <Nav />
         <Container>
           <h1 className="text-3xl font-bold text-primary ml-2">Mes projets</h1>
           <ProjectCard />
