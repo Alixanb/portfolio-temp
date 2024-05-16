@@ -1,3 +1,4 @@
+import { Footer } from "@/src/components/base/Footer";
 import { Header } from "@/src/components/base/Header";
 import { Nav } from "@/src/components/base/Nav";
 import { ProjectCard } from "@/src/components/base/ProjectCard";
@@ -35,6 +36,7 @@ export default function Home() {
             Contactez-moi<span className="text-gray-600">...</span>
           </h2>
         </Container>
+        <Footer />
       </Main>
     </>
   );
