@@ -19,14 +19,14 @@ export const projects = [
     title: "🏙️ Agglo Haguenau",
     description:
       "Agglo-Haguenau est une application exclusivement mobile, développée avec Next.js. ⚠️ Elle n'est pas conçue pour être consultée sur un ordinateur de bureau",
-    link: "https://netflix.com",
+    link: "https://agglo-haguenau.vercel.app/",
     tags: ["Next.JS", "Capacitor"],
   },
   {
     title: "🍺 Chiirz",
     description:
-      "Agglo-Haguenau est une application exclusivement mobile, développée avec Next.js. ⚠️ Elle n'est pas conçue pour être consultée sur un ordinateur de bureau",
-    link: "https://netflix.com",
+      'Ma première application complète, nous avions décidé de partir sur quelque chose de "fun" réalise il y a de ça un an.',
+    link: "https://chiirz.joly.etu.mmi-unistra.fr/",
     tags: ["Symfony", "PHP"],
   },
 ];
