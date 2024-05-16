@@ -5,18 +5,38 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Mon portfolio | Alixan BALU", // Replace with your name
+  title: "Mon portfolio | Alixan BALU",
+  author: "Alixan BALU",
+  url: "https://alixan.dev",
   description:
-    "Je suis un développeur créatif et dynamique, passioné par les technologies de pointes.", // Replace with your own description
-  keywords: [
-    "développeur",
-    "portfolio",
-    "full stack",
-    "créatif",
-    "designer",
-    "développeur web",
+    "Je suis un développeur créatif et dynamique, passioné par les technologies de pointes.",
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  image: "/img/og-image.png",
+  siteName: "Alixan BALU Portfolio d'un creative developer",
+  robots: "all",
+  link: [
+    {
+      rel: "canonical",
+      href: "https://alixan.dev",
+      key: "canonical",
+    },
   ],
-  og: {
+  keywords: [
+    "Développeur",
+    "Portfolio",
+    "Full stack",
+    "Créatif",
+    "Designer",
+    "Développeur web",
+    "Creative Web Developer France",
+    "Web Developer Portfolio",
+    "Next.js Portfolio",
+    "React Portfolio",
+    "Fullstack Developer",
+    "Creative Developer",
+    "web apps",
+  ],
+  openGraph: {
     title: "Mon portfolio | Alixan BALU",
     description:
       "Je suis un développeur créatif et dynamique, passioné par les technologies de pointes.",
