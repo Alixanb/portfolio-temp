@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import * as React from "react";
+import SocialsLinks from "../misc/SocialsLinks";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -51,7 +52,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Nav() {
   return (
-    <div className="fixed px-4 py-2 border-b border-neutral-900 w-full backdrop-blur-sm z-50">
+    <div className="fixed flex justify-between px-4 py-2 border-b border-neutral-900 w-full backdrop-blur-sm z-50 items-center">
       <NavigationMenu>
         <NavigationMenuList>
           <h1 className="font-semibold pr-4 text-lg">✨ Alixan</h1>
@@ -78,6 +79,7 @@ export function Nav() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
+      <SocialsLinks />
     </div>
   );
 }

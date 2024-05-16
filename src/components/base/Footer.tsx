@@ -83,17 +83,17 @@ export function Footer() {
               <li>
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
-                  href="https://gitlab.com/Alixan_"
+                  href="https://www.behance.net/alixan_"
                 >
-                  Gitlab
+                  Behance
                 </Link>
               </li>
               <li>
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
-                  href="https://www.behance.net/alixan_"
+                  href="https://gitlab.com/Alixan_"
                 >
-                  Behance
+                  Gitlab
                 </Link>
               </li>
             </ul>
