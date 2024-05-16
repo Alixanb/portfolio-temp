@@ -29,4 +29,25 @@ export const projects = [
     link: "https://chiirz.joly.etu.mmi-unistra.fr/",
     tags: ["Symfony", "PHP"],
   },
+  {
+    title: "📸 Trombino-scope",
+    description:
+      "Mōde est une agence de divertissement spécialisée dans des solutions de divertissement événementiel à fort impact à travers toute l'Australie.",
+    link: "https://mode-three.vercel.app/",
+    tags: ["Github-only", "Docker", "✨ IA", "Express.js"],
+  },
+  {
+    title: "🫂 Emmaüs Mundolsheim",
+    description:
+      "Emmaüs Mundo est une association dont l’objectif principal est l’insertion sociale, j'ai été l'UX/UI Designer sur le nouveau site web.",
+    link: "https://emmausmundo.com/",
+    tags: ["Design Figma", "Wordpress"],
+  },
+  {
+    title: "💧 Notre eau",
+    description:
+      "Ce site infographique offre un aperçu instructif sur les enjeux cruciaux liés à la consommation de viande et son impact sur l’eau.",
+    link: "https://eau.huot.etu.mmi-unistra.fr/",
+    tags: ["Symfony", "PHP"],
+  },
 ];

@@ -51,10 +51,10 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Nav() {
   return (
-    <div className="fixed px-4 py-2 border-b border-slate-900 w-full backdrop-blur-lg z-50">
+    <div className="fixed px-4 py-2 border-b border-neutral-900 w-full backdrop-blur-sm z-50">
       <NavigationMenu>
         <NavigationMenuList>
-          <div className="font-semibold pr-4 text-lg">✨ Alixan</div>
+          <h1 className="font-semibold pr-4 text-lg">✨ Alixan</h1>
           <NavigationMenuItem>
             <Link href="#projects" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>

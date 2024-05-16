@@ -14,17 +14,26 @@ export default function Home() {
       </header>
       <Main>
         <Container>
-          <h1 className="text-3xl font-bold text-primary ml-2">Mes projets</h1>
-          <ProjectCard />
+          <h2 className="text-4xl font-medium text-primary mb-8 font-mono">
+            Qui-suis je <span className="text-gray-600">..?</span>
+          </h2>
+          <Skills />
         </Container>
         <Container>
           <TextRevealByWord text="Je suis un joueur d'équipe, motivé à développer des solutions uniques." />
         </Container>
+
         <Container>
-          <h1 className="text-3xl font-bold text-primary mb-4">
-            Atouts professionnels
-          </h1>
-          <Skills />
+          <h2 className="text-4xl font-medium text-primary mb-2 font-mono">
+            Mes projets<span className="text-gray-600">...</span>
+          </h2>
+
+          <ProjectCard />
+        </Container>
+        <Container id="contact">
+          <h2 className="text-4xl font-medium text-primary mb-8 font-mono">
+            Contactez-moi<span className="text-gray-600">...</span>
+          </h2>
         </Container>
       </Main>
     </>
