@@ -25,7 +25,7 @@ export function Footer() {
               Sections
             </h4>
             <ul className="space-y-2">
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="#whoami"
@@ -33,7 +33,7 @@ export function Footer() {
                   Qui suis-je
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="#projects"
@@ -41,7 +41,7 @@ export function Footer() {
                   Mes projets
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="#contact"
@@ -49,7 +49,7 @@ export function Footer() {
                   Contact
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="#"
@@ -61,10 +61,10 @@ export function Footer() {
           </div>
           <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
             <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-50">
-              Mes réseaux sociaux
+              Réseaux sociaux
             </h4>
             <ul className="space-y-2">
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://www.linkedin.com/in/alixan/"
@@ -72,7 +72,7 @@ export function Footer() {
                   Linkedin
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://github.com/Alixanb"
@@ -80,7 +80,7 @@ export function Footer() {
                   Github
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://www.behance.net/alixan_"
@@ -88,7 +88,7 @@ export function Footer() {
                   Behance
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://gitlab.com/Alixan_"
@@ -102,37 +102,37 @@ export function Footer() {
             <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-50">
               Repo git
             </h4>
-            <ul className="space-y-2">
-              <li>
+            <ul className="space-y-2 list-disc ml-4">
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
-                  href="#"
+                  href="https://github.com/Alixanb/portfolio-temp"
                 >
-                  Contact Form
+                  portfolio-temp
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
-                  href="#"
+                  href="https://github.com/Alixanb/agglo-haguenau"
                 >
-                  Join our Team
+                  agglo-haguenau
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
-                  href="#"
+                  href="https://github.com/Alixanb/Get-Testmonials"
                 >
-                  Journal
+                  get-testimonials
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link
                   className="hover:text-gray-900 dark:hover:text-gray-50"
-                  href="#"
+                  href="https://github.com/Alixanb/trombino-scope"
                 >
-                  Previous work
+                  trombino-scope
                 </Link>
               </li>
             </ul>
@@ -145,8 +145,8 @@ export function Footer() {
           Fais avec ♡ par Alixan BALU
         </div>
         <Link
-          href=""
-          className="text-sm text-gray-600 dark:text-gray-400 mt-4 sm:mt-0"
+          href="https://github.com/Alixanb/portfolio-temp/blob/master/LICENSE"
+          className="text-sm text-gray-600 dark:text-gray-400 mt-4 sm:mt-0 hover:underline "
         >
           © 2024 Alixan BALU. MIT Liscence.
         </Link>
