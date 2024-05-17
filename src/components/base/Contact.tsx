@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-end">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch justify-start">
       <div>
         <p className="text-lg mb-8">
           J&apos;aimerais avoir de vos nouvelles! Que vous ayez une question, un
@@ -27,7 +27,7 @@ export default function Contact() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col space-y-4 ml-auto w-28">
+      <div className="flex flex-col space-y-4 max-sm:pt-16 lg:ml-auto w-28">
         <Link
           className="text-lg hover:text-gray-300 flex items-center justify-between font-mono"
           href="https://github.com/Alixanb"

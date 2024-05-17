@@ -1,8 +1,10 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { Milestone } from "lucide-react";
 import Link from "next/link";
 import * as React from "react";
+import { Container } from "../layout/Section";
 import SocialsLinks from "../misc/SocialsLinks";
 import {
   NavigationMenu,
@@ -52,34 +54,38 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Nav() {
   return (
-    <div className="fixed flex justify-between px-4 py-2 border-b border-neutral-900 w-full backdrop-blur-sm z-50 items-center">
-      <NavigationMenu>
-        <NavigationMenuList>
-          <h1 className="font-semibold pr-4 text-lg">✨ Alixan</h1>
-          <NavigationMenuItem>
-            <Link href="#whoami" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Qui suis-je
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="#projects" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Mes projets
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="#contact" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Contact
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
-      <SocialsLinks />
+    <div className="fixed  px-4 py-2 border-b border-neutral-900 w-full backdrop-blur-sm z-50 max-sm:hidden">
+      <Container className="flex justify-between items-center">
+        <NavigationMenu>
+          <NavigationMenuList>
+            <h1 className="font-semibold pr-8 text-lg flex gap-2">
+              <Milestone stroke="default" className="stroke-blue-500" /> Alixan
+            </h1>
+            <NavigationMenuItem>
+              <Link href="#whoami" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Qui suis-je
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href="#projects" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Mes projets
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href="#contact" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Contact
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
+        <SocialsLinks />
+      </Container>
     </div>
   );
 }
