@@ -27,8 +27,8 @@ export default function Home() {
         </Container>
 
         <Container id="projects">
-          <div className="flex w-ful justify-between items-center">
-            <h2 className="text-4xl font-medium text-primary mb-2 font-mono">
+          <div className="flex p-2 w-ful gap-8 justify-between items-center max-sm:flex-col max-sm:items-start">
+            <h2 className="text-4xl font-medium text-primary mb-2 font-mono ">
               Mes projets<span className="text-gray-600">...</span>
             </h2>
             <ButtonRing>

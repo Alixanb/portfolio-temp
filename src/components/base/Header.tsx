@@ -25,7 +25,7 @@ export function Header() {
           Je suis un développeur créatif et dynamique, passioné par les
           technologies de pointes.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 max-sm:flex-col">
           <ButtonRing
             className="bg-white text-primary-foreground"
             href="#projects"
