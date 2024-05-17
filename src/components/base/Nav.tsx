@@ -73,7 +73,7 @@ export function Nav() {
           <NavigationMenuItem>
             <Link href="#contact" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Contacte
+                Contact
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>

@@ -19,7 +19,7 @@ const Container: React.FC<ContainerProps> = ({
 
 const Main: React.FC<ContainerProps> = ({ children, className, ...props }) => {
   return (
-    <main className={cn("flex flex-col gap-32", className)} {...props}>
+    <main className={cn("flex flex-col gap-32 mb-32", className)} {...props}>
       {children}
     </main>
   );

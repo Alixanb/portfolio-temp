@@ -1,4 +1,4 @@
-import { Footer } from "@/src/components/base/Footer";
+import Contact from "@/src/components/base/Contact";
 import { Header } from "@/src/components/base/Header";
 import { Nav } from "@/src/components/base/Nav";
 import { ProjectCard } from "@/src/components/base/ProjectCard";
@@ -42,8 +42,9 @@ export default function Home() {
           <h2 className="text-4xl font-medium text-primary mb-8 font-mono">
             Contactez-moi<span className="text-gray-600">...</span>
           </h2>
+          <Contact />
         </Container>
-        <Footer />
+        {/* <Footer /> */}
       </Main>
     </>
   );
