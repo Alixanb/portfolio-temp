@@ -59,7 +59,7 @@ export function Nav() {
         <NavigationMenu>
           <NavigationMenuList>
             <h1 className="font-semibold pr-8 text-lg flex gap-2">
-              <Milestone stroke="default" className="stroke-blue-500" /> Alixan
+              Alixan
             </h1>
             <NavigationMenuItem>
               <Link href="#whoami" legacyBehavior passHref>
