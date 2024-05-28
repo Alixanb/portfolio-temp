@@ -9,7 +9,7 @@ export const metadata = {
   author: "Alixan BALU",
   url: "https://alixan.dev",
   description:
-    "Je suis un développeur créatif et dynamique, passioné par les technologies de pointes.",
+    "Passionné par la création d’expériences en ligne captivantes, spécialisé dans les technologies front-end et back-end.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   image: "/img/og-image.png",
   siteName: "Alixan BALU Portfolio d'un creative developer",
@@ -39,7 +39,7 @@ export const metadata = {
   openGraph: {
     title: "Mon portfolio | Alixan BALU",
     description:
-      "Je suis un développeur créatif et dynamique, passioné par les technologies de pointes.",
+      "Passionné par la création d’expériences en ligne captivantes, spécialisé dans les technologies front-end et back-end.",
     image: "/img/og-image.png",
     url: "https://alixan.dev",
     type: "website",
@@ -48,7 +48,7 @@ export const metadata = {
   twitter: {
     title: "Mon portfolio | Alixan BALU",
     description:
-      "Je suis un développeur créatif et dynamique, passioné par les technologies de pointes.",
+      "Passionné par la création d’expériences en ligne captivantes, spécialisé dans les technologies front-end et back-end.",
     image: "/img/og-image.png",
     card: "summary_large_image",
   },

@@ -1,7 +1,6 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Milestone } from "lucide-react";
 import Link from "next/link";
 import * as React from "react";
 import { Container } from "../layout/Section";
@@ -58,9 +57,7 @@ export function Nav() {
       <Container className="flex justify-between items-center">
         <NavigationMenu>
           <NavigationMenuList>
-            <h1 className="font-semibold pr-8 text-lg flex gap-2">
-              Alixan
-            </h1>
+            <h1 className="font-semibold pr-8 text-lg flex gap-2">Alixan</h1>
             <NavigationMenuItem>
               <Link href="#whoami" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
