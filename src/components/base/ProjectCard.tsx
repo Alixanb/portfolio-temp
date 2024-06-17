@@ -29,7 +29,7 @@ export const projects = [
     title: "📸 Trombino-scope",
     description:
       "Mōde est une agence de divertissement spécialisée dans des solutions de divertissement événementiel à fort impact à travers toute l'Australie.",
-    link: "https://mode-three.vercel.app/",
+    link: "https://github.com/Alixanb/trombino-scope",
     tags: ["Github-only", "Docker", "✨ IA", "Express.js"],
   },
   {
