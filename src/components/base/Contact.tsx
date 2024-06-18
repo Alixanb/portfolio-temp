@@ -6,9 +6,7 @@ export default function Contact() {
     <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch justify-start">
       <div>
         <p className="text-lg mb-8">
-          J&apos;aimerais avoir de vos nouvelles! Que vous ayez une question, un
-          commentaire, ou simplement envie de me saluer, n&apos;hésitez pas à me
-          contacter.
+          Prenez contact avec moi ! Ou simplement consultez mon activité.
         </p>
         <div className="flex flex-col space-y-4">
           <Link
