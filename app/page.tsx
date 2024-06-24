@@ -23,7 +23,7 @@ export default function Home() {
           <Skills />
         </Container>
         <Container>
-          <TextRevealByWord text="Je suis un joueur d'équipe, motivé à développer des solutions uniques." />
+        <TextRevealByWord text="Je suis un développeur web créatif à la recherche de défis !" />
         </Container>
 
         <Container id="projects">
@@ -31,11 +31,10 @@ export default function Home() {
             <h2 className="text-4xl font-medium text-primary mb-2 font-mono ">
               Mes projets<span className="text-gray-600">...</span>
             </h2>
-            <ButtonRing>
+            <ButtonRing href="https://github.com/Alixanb?tab=repositories">
               Voir sur GitHub <Globe />
             </ButtonRing>
           </div>
-
           <ProjectCard />
         </Container>
         <Container id="contact">
