@@ -4,20 +4,15 @@ import { cn } from "@/src/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import { ProjectsProps } from "../base/ProjectCard";
 import { Badge } from "./badge";
 
-type ItemObject = Array<{
-  title: string;
-  description: string;
-  link: string;
-  tags: string[];
-}>;
 
 export const HoverEffect = ({
   items,
   className,
 }: {
-  items: ItemObject;
+  items: ProjectsProps[];
   className?: string;
 }) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -56,7 +51,12 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.title}</CardTitle>
+            <CardTitle>
+              <div className="flex flex-col ">
+                <small className="text-muted-foreground">{item.date}</small>
+                {item.title}
+              </div>
+            </CardTitle>
             <div className="mt-4 flex flex-wrap gap-2">
               {item.tags.map((item, idx) => (
                 <Badge variant="outline" key={item + idx}>
@@ -64,6 +64,7 @@ export const HoverEffect = ({
                 </Badge>
               ))}
             </div>
+            
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </Link>
