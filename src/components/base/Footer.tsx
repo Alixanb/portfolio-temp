@@ -27,6 +27,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li className="hover:underline">
                 <Link
+                  title="Section qui suis-je ?"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="#whoami"
                 >
@@ -35,6 +36,7 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Section sur mes projets"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="#projects"
                 >
@@ -43,18 +45,11 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Section contact"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="#contact"
                 >
                   Contact
-                </Link>
-              </li>
-              <li className="hover:underline">
-                <Link
-                  className="hover:text-gray-900 dark:hover:text-gray-50"
-                  href="#"
-                >
-                  FAQs
                 </Link>
               </li>
             </ul>
@@ -66,6 +61,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li className="hover:underline">
                 <Link
+                  title="Visitez mon LinkedIn"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://www.linkedin.com/in/alixan/"
                 >
@@ -74,6 +70,7 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Visitez mon Github"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://github.com/Alixanb"
                 >
@@ -82,6 +79,7 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Visitez mon Behance"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://www.behance.net/alixan_"
                 >
@@ -90,6 +88,7 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Visitez mon GitLab"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://gitlab.com/Alixan_"
                 >
@@ -105,6 +104,7 @@ export function Footer() {
             <ul className="space-y-2 list-disc ml-4">
               <li className="hover:underline">
                 <Link
+                  title="Mon projet de portfolio"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://github.com/Alixanb/portfolio-temp"
                 >
@@ -113,6 +113,7 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Mon projet pour l'agglomération de Haguenau"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://github.com/Alixanb/agglo-haguenau"
                 >
@@ -121,6 +122,7 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Mon projet pour approfondir mes connaissances en Next.JS"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://github.com/Alixanb/Get-Testmonials"
                 >
@@ -129,6 +131,7 @@ export function Footer() {
               </li>
               <li className="hover:underline">
                 <Link
+                  title="Mon premier projet Next.JS"
                   className="hover:text-gray-900 dark:hover:text-gray-50"
                   href="https://github.com/Alixanb/trombino-scope"
                 >
@@ -145,10 +148,11 @@ export function Footer() {
           Fais avec ♡ par Alixan BALU
         </div>
         <Link
+        title="Licence du site WEB"
           href="https://github.com/Alixanb/portfolio-temp/blob/master/LICENSE"
           className="text-sm text-gray-600 dark:text-gray-400 mt-4 sm:mt-0 hover:underline "
         >
-          © 2024 Alixan BALU. MIT Liscence.
+          © 2024 Alixan BALU. MIT Licence.
         </Link>
       </div>
     </footer>

@@ -59,21 +59,21 @@ export function Nav() {
           <NavigationMenuList>
             <h1 className="font-semibold pr-8 text-lg flex gap-2">Alixan</h1>
             <NavigationMenuItem>
-              <Link href="#whoami" legacyBehavior passHref>
+              <Link href="#whoami" title="Section qui suis-je ?" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Qui suis-je
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#projects" legacyBehavior passHref>
+              <Link href="#projects" title="Section sur mes projets" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Mes projets
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#contact" legacyBehavior passHref>
+              <Link href="#contact" title="Section de contact" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Contact
                 </NavigationMenuLink>

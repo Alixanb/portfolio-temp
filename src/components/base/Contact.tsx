@@ -10,6 +10,7 @@ export default function Contact() {
         </p>
         <div className="flex flex-col space-y-4">
           <Link
+            title="Contactez moi par mail"
             className="text-lg hover:text-gray-300 flex gap-4 items-center hover:underline"
             href="mailto:alixan.dev"
           >
@@ -17,6 +18,7 @@ export default function Contact() {
             contact@alixan.dev
           </Link>
           <Link
+            title="Contactez moi par téléphone"
             className="text-lg hover:text-gray-300 flex gap-4 items-center hover:underline"
             href="tel:+33626922103"
           >
@@ -27,6 +29,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-col space-y-4 max-sm:pt-16 lg:ml-auto w-28">
         <Link
+          title="Visitez mon Github"
           className="text-lg hover:text-gray-300 flex items-center justify-between font-mono"
           href="https://github.com/Alixanb"
         >
@@ -44,6 +47,7 @@ export default function Contact() {
           GitHub
         </Link>
         <Link
+          title="Visitez mon LinkedIn"
           className="text-lg hover:text-gray-300 flex items-center justify-between font-mono"
           href="https://www.linkedin.com/in/alixan/"
         >
@@ -61,6 +65,7 @@ export default function Contact() {
           LinkedIn
         </Link>
         <Link
+          title="Visitez mon Behance"
           className="text-lg hover:text-gray-300 flex items-center justify-between font-mono"
           href="https://www.behance.net/alixan_"
         >
