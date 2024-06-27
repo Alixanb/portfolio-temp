@@ -41,16 +41,16 @@ export const metadata: Metadata = {
     title: "Mon portfolio | Alixan BALU",
     description:
       "Passionné par la création d’expériences en ligne captivantes, spécialisé dans les technologies front-end et back-end.",
-    image: "/img/og-image.png",
+    images: "/img/og-image.png",
     url: "https://alixan.dev",
     type: "website",
-    site_name: "Mon portfolio | Alixan BALU",
+    emails: "contact@alixan.dev",
   },
   twitter: {
     title: "Mon portfolio | Alixan BALU",
     description:
       "Passionné par la création d’expériences en ligne captivantes, spécialisé dans les technologies front-end et back-end.",
-    image: "/img/og-image.png",
+    images: "/img/og-image.png",
     card: "summary_large_image",
   },
 };
