@@ -8,7 +8,7 @@ import { ProjectsProps } from "../base/ProjectCard";
 import { Badge } from "./badge";
 
 
-export const HoverEffect = ({
+export const ProjectCardContainer = ({
   items,
   className,
 }: {
@@ -59,6 +59,11 @@ export const HoverEffect = ({
               </div>
             </CardTitle>
             <div className="mt-4 flex flex-wrap gap-2">
+              {item.role && 
+                <Badge variant="outline" className="bg-blue-600 border border-blue-100 text-white font-bold">
+                  {item.role}
+                </Badge>
+              }
               {item.tags.map((item, idx) => (
                 <Badge variant="outline" key={item + idx}>
                   {item}
