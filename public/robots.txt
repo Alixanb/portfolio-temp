@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /accounts
+
+User-agent: *
+Allow: /
+
+Sitemap: https://alixan.dev/sitemap.xml
