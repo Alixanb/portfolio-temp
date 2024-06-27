@@ -1,15 +1,16 @@
 import { cn } from "@/lib/utils";
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Mon portfolio | Alixan BALU",
   author: "Alixan BALU",
   url: "https://alixan.dev",
   description:
-    "Passionné par la création d’expériences en ligne captivantes, spécialisé dans les technologies front-end et back-end.",
+    "Étudiant développeur web créatif passionné par la création et le développement d'expériences en ligne captivantes, avec une expertise particulière en Next.js et le Design.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   image: "/img/og-image.png",
   siteName: "Alixan BALU Portfolio d'un creative developer",
