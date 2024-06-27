@@ -148,11 +148,11 @@ export function Footer() {
           Fais avec ♡ par Alixan BALU
         </div>
         <Link
-        title="Licence du site WEB"
+        title="License du site WEB"
           href="https://github.com/Alixanb/portfolio-temp/blob/master/LICENSE"
           className="text-sm text-gray-600 dark:text-gray-400 mt-4 sm:mt-0 hover:underline "
         >
-          © 2024 Alixan BALU. MIT Licence.
+          © 2024 Alixan BALU. MIT License.
         </Link>
       </div>
     </footer>
