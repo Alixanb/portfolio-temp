@@ -26,12 +26,13 @@ const items = [
   {
     title: "Curieux",
     description:
-      "Ma créativité me permet de créer des designs et des expériences utilisateur uniques et engageants.",
+      "Ma curiosité me pousse à explorer de nouvelles idées et technologies.",
     icon: "🤔",
   },
   {
     title: "Créatif",
-    description: "Discover the beauty of thoughtful and functional design.",
+    description:
+      "Je sais créer des maquettes originales et des expériences utilisateur uniques.",
     icon: "🎨",
   },
   {
@@ -43,7 +44,7 @@ const items = [
   {
     title: "Persévérant",
     description:
-      "Ma rapidité d'apprentissage me permet de contribuer rapidement et efficacement aux projets.",
+      "Ma persévérance me permet de surmonter les obstacles et de mener à bien les projets.",
     icon: "💪",
   },
 ];
