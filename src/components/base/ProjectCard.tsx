@@ -11,6 +11,15 @@ export interface ProjectsProps {
 
 export const projects: ProjectsProps[] = [
   {
+    title: "🏒 Étoile noire",
+    description:
+      "À l'occasion d'un hackathon au sein de mon école Ynov, nous avons développé un MVP de la boutique e-commerce de l'équipe de hockey de Strasbourg",
+    link: "https://hackathon-ynov.vercel.app/",
+    tags: ["Next.JS", "Stripe"],
+    role: "Dev & Designer",
+    date: "Jan. 2025"
+  },
+  {
     title: "🪩 Mōde Entertainment",
     description:
       "Mōde est une agence de divertissement spécialisée dans des solutions de divertissement événementiel à fort impact à travers toute l'Australie.",
@@ -27,15 +36,6 @@ export const projects: ProjectsProps[] = [
     tags: ["Next.JS", "Capacitor"],
     role: "Projet individuel",
     date: "Fev. - Mai. 2024"
-  },
-  {
-    title: "🍺 Chiirz",
-    description:
-      'Ma première application complète, nous avions décidé de partir sur quelque chose de "fun" réalise il y a de ça un an.',
-    link: "https://chiirz.joly.etu.mmi-unistra.fr/",
-    tags: ["Symfony", "PHP"],
-    role: "Dev, CDP & Designer ",
-    date: "Fev. 2023"
   },
   {
     title: "📸 Trombino-scope",
