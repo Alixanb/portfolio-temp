@@ -15,11 +15,11 @@ import {
 
 export function Nav() {
   return (
-    <div className="fixed  px-4 py-2 border-b border-neutral-900 w-full backdrop-blur-sm z-50 max-sm:hidden">
-      <Container className="flex justify-between items-center">
+    <div className="fixed z-50 w-full my-8">
+      <Container className="flex justify-between items-center w-full border border-white/20 px-8 py-2 rounded-full backdrop-blur">
         <NavigationMenu>
           <NavigationMenuList>
-            <h1 className="font-semibold pr-8 text-lg flex gap-2">Alixan</h1>
+            <h1 className="text-sm tracking-tighter font-bold mr-8">AB</h1>
             <NavigationMenuItem>
               <Link href="#whoami" title="Section qui suis-je ?" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
