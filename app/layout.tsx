@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -55,6 +56,7 @@ export default function RootLayout({
     <html lang="fr" className="dark scroll-smooth ">
       <body className={cn("bg-black max-w-screen", inter.className)}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );

@@ -17,19 +17,19 @@ export default function Home() {
       </header>
       <Main>
         <Container id="whoami">
-          <h2 className="text-4xl font-medium text-primary mb-8 font-mono">
-            Qui-suis je <span className="text-gray-600">..?</span>
+          <h2 className="text-4xl text-primary mb-8 font-bold">
+            Qui-suis je
           </h2>
           <Skills />
         </Container>
         <Container>
-        <TextRevealByWord text="Je suis un développeur web créatif à la recherche de défis !" />
+          <TextRevealByWord text="Je suis un développeur web créatif à la recherche de défis !" />
         </Container>
 
         <Container id="projects">
           <div className="flex p-2 w-ful gap-8 justify-between items-center max-sm:flex-col max-sm:items-start">
-            <h2 className="text-4xl font-medium text-primary mb-2 font-mono ">
-              Mes projets<span className="text-gray-600">...</span>
+            <h2 className="text-4xl text-primary mb-2 font-bold ">
+              Mes projets
             </h2>
             <ButtonRing href="https://github.com/Alixanb?tab=repositories">
               Voir sur GitHub <Globe />
@@ -38,8 +38,8 @@ export default function Home() {
           <ProjectCard />
         </Container>
         <Container id="contact">
-          <h2 className="text-4xl font-medium text-primary mb-8 font-mono">
-            Contactez-moi<span className="text-gray-600">...</span>
+          <h2 className="text-4xl font-bold text-primary mb-8">
+            Contactez-moi
           </h2>
           <Contact />
         </Container>
