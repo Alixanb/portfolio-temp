@@ -143,17 +143,33 @@ export function Footer() {
         </div>
       </div>
       <hr className="my-12 border-border" />
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between mt-6">
-        <div className="flex items-center space-x-4">
-          Fais avec ♡ par Alixan BALU
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-end">
+          <Link
+            title="License du site WEB"
+            href="https://github.com/Alixanb/portfolio-temp/blob/master/LICENSE"
+            className="text-sm text-gray-600 dark:text-gray-400 hover:underline"
+          >
+            © 2024 Alixan BALU. MIT License.
+          </Link>
         </div>
-        <Link
-        title="License du site WEB"
-          href="https://github.com/Alixanb/portfolio-temp/blob/master/LICENSE"
-          className="text-sm text-gray-600 dark:text-gray-400 mt-4 sm:mt-0 hover:underline "
-        >
-          © 2024 Alixan BALU. MIT License.
-        </Link>
+        <div className="mt-4 flex items-center justify-center gap-3 text-xs text-gray-500 dark:text-gray-600">
+          <span className="inline-flex items-center gap-1" title="Score de performance Lighthouse">
+            <span className="text-white font-medium">Perf</span> 97
+          </span>
+          <span className="text-gray-400">•</span>
+          <span className="inline-flex items-center gap-1" title="Score d'accessibilité Lighthouse">
+            <span className="text-white font-medium">A11y</span> 95
+          </span>
+          <span className="text-gray-400">•</span>
+          <span className="inline-flex items-center gap-1" title="Score SEO Lighthouse">
+            <span className="text-white font-medium">SEO</span> 100
+          </span>
+          <span className="text-gray-400">•</span>
+          <span className="inline-flex items-center gap-1" title="Score des bonnes pratiques Lighthouse">
+            <span className="text-white font-medium">BP</span> 96
+          </span>
+        </div>
       </div>
     </footer>
   );

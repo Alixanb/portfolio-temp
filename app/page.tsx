@@ -1,4 +1,4 @@
-import Contact from "@/src/components/base/Contact";
+import { Footer } from "@/src/components/base/Footer";
 import { Header } from "@/src/components/base/Header";
 import { Nav } from "@/src/components/base/Nav";
 import { ProjectCard } from "@/src/components/base/ProjectCard";
@@ -37,14 +37,8 @@ export default function Home() {
           </div>
           <ProjectCard />
         </Container>
-        <Container id="contact">
-          <h2 className="text-4xl font-bold text-primary mb-8">
-            Contactez-moi
-          </h2>
-          <Contact />
-        </Container>
-        {/* <Footer /> */}
       </Main>
+      <Footer />
     </>
   );
 }

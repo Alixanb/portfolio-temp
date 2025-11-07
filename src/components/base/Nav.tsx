@@ -17,9 +17,9 @@ export function Nav() {
   return (
     <div className="fixed z-50 w-full my-8">
       <Container className="flex justify-between items-center w-full border border-white/20 px-8 py-2 rounded-full backdrop-blur">
+        <div className="text-sm tracking-tighter font-bold mr-8">AB</div>
         <NavigationMenu>
           <NavigationMenuList>
-            <div className="text-sm tracking-tighter font-bold mr-8">AB</div>
             <NavigationMenuItem>
               <Link href="#whoami" title="Section qui suis-je ?" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
