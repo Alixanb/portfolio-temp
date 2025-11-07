@@ -19,7 +19,7 @@ export function Nav() {
       <Container className="flex justify-between items-center w-full border border-white/20 px-8 py-2 rounded-full backdrop-blur">
         <NavigationMenu>
           <NavigationMenuList>
-            <h1 className="text-sm tracking-tighter font-bold mr-8">AB</h1>
+            <div className="text-sm tracking-tighter font-bold mr-8">AB</div>
             <NavigationMenuItem>
               <Link href="#whoami" title="Section qui suis-je ?" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>

@@ -21,9 +21,9 @@ export function Header() {
             portfolio
           </span>
         </h1>
-        <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-          Je suis un développeur créatif et dynamique, passioné par les
-          technologies de pointes.
+        <p className="mt-4 font-normal text-base text-neutral-200 max-w-lg text-center mx-auto">
+          Je suis un développeur créatif et dynamique, passionné par les
+          technologies de pointe.
         </p>
         <div className="flex gap-4 max-sm:flex-col">
           <ButtonRing
